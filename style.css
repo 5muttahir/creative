@@ -1,0 +1,90 @@
+*{
+   margin: 0px;
+   padding: 0px;                                                                                                                     
+}
+header .sec-head{
+    background-color: rgb(226, 211, 211);
+    color: #fff;
+    list-style-position: outside;
+}
+header .prim-head{
+background-color: #908a8a;
+}
+header .sec-head li,
+header .prim-head li
+{
+ list-style: upper-alpha;
+  display: inline;
+}
+.top-feature-area .row{
+  margin: 3%;
+padding: 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.top-feature-area .row .col-one{
+  background-color:rgba(0,0,0,0.2);
+  width: 33%;
+ 
+}
+
+/*  sdfsdfsdfsdfsdfsdfsdf
+sdfsdfsdfsdfsdfsdfsdf
+sdfsdfsdfsdf
+sdfsdf
+sdf
+sd
+fsd
+fsd
+sfsfsdfsdfsdfsdfsf*/
+
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.second-head.dropdown.dropbtn{
+  background-color: rgb(33, 87, 189);
+  /* background-position-y: center; */
+ text-size-adjust: 20px;
+}
+div .tehnical-image {
+  text-align: right;
+  width: 20px;
+  height: 20px;
+}
